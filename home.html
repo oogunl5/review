@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="home.css">
+  <script src="home.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <div id="fonts">
+    <!-- IBM Plex Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet">
+    <!-- Barlow -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+    <!-- Sintony -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap" rel="stylesheet">
+    <!-- JS Color-->
+    <script src="color.js" defer></script>
+    <!-- JS Color -->
+  </div>
+</head>
+
+<body>
+  <!-- MENU Navigation -->
+  <div class="dropdown">
+    <button class="dropdown-btn" id="dropdownBtn" onclick="toggleDropdown()">
+      HOME <span id="arrow" class="arrow-down">&#9662;</span>
+    </button>
+    <div id="dropdownContent" class="dropdown-content">
+      <a href="philosophy.html">PHILOSOPHY</a>
+      <a href="design.html">DESIGN ENGINEERING</a>
+      <a href="passion.html">PASSION PROJECTS</a>
+      <a href="graphic.html">GRAPHIC DESIGN</a>
+      <a href="marketing.html">MARKETING</a>
+    </div>
+  </div>
+  <!-- MENU Cube -->
+  <div class="home-image-container">
+    <a id="cube" href="home.html"><img
+        src="https://res.cloudinary.com/dio49rnxg/image/upload/v1727998072/3D_CUBE_TRANSPARENT_zcyp3d.png"
+        alt="home"></a>
+  </div>
+
+  <!-- Color of The Day Homepage Insert -->
+  <div id="space-one">
+    <div id="color-of-day">
+      <div id="color-box">
+        <div class="display-box">
+          <div id="color-display"></div>
+        </div>
+      </div>
+      <p id="click">CLICK TO REVEAL THE
+      <p id="day">COLOR OF THE DAY </p>
+      </p>
+      <button id="reveal" onclick="displayColor()">Reveal Color</button>
+    </div>
+  </div>
+
+  <!--Passion Project Homepage Insert -->
+  <a  id="space-two"href="passion.html">
+      <div  id="space-two-img">
+                    <img class="passion-image" src="https://res.cloudinary.com/dio49rnxg/image/upload/v1728013989/jicjk9iswmg3twcbc6y0.png" alt="a lady in pink paint">
+                    <div class="passion-type">
+                      <p> PASSION PROJECTS</p>
+                    </div>
+      </div>
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
